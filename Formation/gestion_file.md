@@ -53,5 +53,6 @@ touch fichier1.txt fichier2.txt fichier?.txt
 ls fichier?.txt
 ls fichier\?.txt
 
+
 # suppression des fichiers
 rm -rf *

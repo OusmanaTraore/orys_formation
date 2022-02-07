@@ -1,3 +1,0 @@
-########
-chmod 700 ~/.ssh
-chmod 644 ~/.ssh/key_pub

@@ -1,62 +1,97 @@
 # Copier le contenu du fichier /etc/passwd dans un fichier MonPass.txt
-cp /etc/passwd MonPass.txt
+```
+    cp /etc/passwd MonPass.txt
+
+```
 
 # Extraire de ce fichier les colonnes 1,3,4 6 et 7 et mettre le résultat dans un fichier file.txt.
-cut -c 1  > file2.txt 
-cut -c 6-7 MonPass.txt  > file67.txt 
-cut -c 3-4 MonPass.txt  > file34.txt 
-paste file2.txt file34.txt file67.txt > file.txt 
+```
+    cut -c 1  > file2.txt 
+    cut -c 6-7 MonPass.txt  > file67.txt 
+    cut -c 3-4 MonPass.txt  > file34.txt 
+    paste file2.txt file34.txt file67.txt > file.txt 
+```
 
 # Ecrire les commandes avec grep permettant de retrouver des ligne répondant aux expressions suivantes : 
-# a)	chaîne commençant par «a» ou «A». 
-grep ^a MonPass.txt
+# a)	chaîne commençant par «a» ou «A».
+
+```
+    grep ^a MonPass.txt
+```
 
 # b)	chaîne finissant par nologin. 
-grep nologin$  MonPass.txt
+```
+    grep nologin$  MonPass.txt
+```
 
 # c)	chaîne s contenant au moins un chiffre. 
-grep [1-9]*  MonPass.txt 
+```
+    grep [1-9]*  MonPass.txt 
+```
 
 # d)	chaîne commençant par une majuscule. 
-grep ^[A-Z]  MonPass.txt 
+```
+    grep ^[A-Z]  MonPass.txt 
+```
 
 # e)	chaîne commençant par «B», «E» ou «Q». 
-grep ^[BEQ]  MonPass.txt 
+```
+    grep ^[BEQ]  MonPass.txt 
+```
 
 # f)	chaîne finissant par un point d'exclamation. 
-grep [\!]$  MonPass.txt 
+```
+    grep [\!]$  MonPass.txt 
+```
 
 # g)	chaîne ne finissant pas par un signe de ponctuation (point, virgule, point-virgule, deux-points, point d'interrogation, point d'exclamation). 
-grep [^\.\,\;\:\?\!]$ MonPass.txt 
-ou 
-grep '[^.,;:?!]$' MonPass.txt
+```
+    grep [^\.\,\;\:\?\!]$ MonPass.txt 
+    ou 
+    grep '[^.,;:?!]$' MonPass.txt
+```
 
 # h)	chaîne contenant un «r» précédé de n'importe quelle lettre majuscule ou minuscule.
-grep [a-zA-Z]*r MonPass.txt 
+```
+    grep [a-zA-Z]*r MonPass.txt 
+```
 
 # i)	chaîne dont la seconde lettre est un «r». 
-grep ^.r MonPass.txt 
+```
+    grep ^.r MonPass.txt 
+```
 
 # j)	chaîne commençant par un point 
+```
 grep ^[.] MonPass.txt
 
+```
+
 # k)	 chaîne ne commençant pas par un chiffre 
-grep [^0-9] MonPass.txt
+```
+    grep [^0-9] MonPass.txt
+```
 
 # l)	chaîne contenant un nombre de trois chiffres
-grep [0-9][0-9][0-9]  MonPass.txt 
-ou
-grep "[0-9]\{3\}" MonPass.txt 
+```
+    grep [0-9][0-9][0-9]  MonPass.txt 
+    ou
+    grep "[0-9]\{3\}" MonPass.txt 
+```
 
 # m)	chaîne contenant un nombre d’au moins trois chiffres et au plus 5 chiffres
-grep "[0-9]\{3,5\}" MonPass.txt 
-
+```
+    grep "[0-9]\{3,5\}" MonPass.txt 
+```
 # n)	chaîne commençant par une majuscule et se terminant par un point.
-grep ^[A-Z].*[\.]$ test.txt 
+```
+    grep ^[A-Z].*[\.]$ test.txt 
+```
 
 # o)	chaîne qui se répète deux fois.
-grep "\(o\)\{2\}" MonPass.txt
-
+```
+    grep "\(o\)\{2\}" MonPass.txt
+```
 
 # Exercice2
 # Sur le fichier 

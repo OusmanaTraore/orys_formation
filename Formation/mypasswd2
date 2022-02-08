@@ -1,0 +1,51 @@
+:root:/root:/bin/bash
+:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:/bin:/usr/sbin/nologin
+sys:/dev:/usr/sbin/nologin
+5534:sync:/bin:/bin/sync
+60:games:/usr/games:/usr/sbin/nologin
+:man:/var/cache/man:/usr/sbin/nologin
+p:/var/spool/lpd:/usr/sbin/nologin
+:mail:/var/mail:/usr/sbin/nologin
+:news:/var/spool/news:/usr/sbin/nologin
+10:uucp:/var/spool/uucp:/usr/sbin/nologin
+:13:proxy:/bin:/usr/sbin/nologin
+:33:33:www-data:/var/www:/usr/sbin/nologin
+4:34:backup:/var/backups:/usr/sbin/nologin
+38:Mailing List Manager:/var/list:/usr/sbin/nologin
+9:ircd:/var/run/ircd:/usr/sbin/nologin
+:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+5534:65534:nobody:/nonexistent:/usr/sbin/nologin
+twork:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+solve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+mesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+:x:103:106::/nonexistent:/usr/sbin/nologin
+04:110::/home/syslog:/usr/sbin/nologin
+:65534::/nonexistent:/usr/sbin/nologin
+111:TPM software stack,,,:/var/lib/tpm:/bin/false
+7:112::/run/uuidd:/usr/sbin/nologin
+108:113::/nonexistent:/usr/sbin/nologin
+:65534::/run/sshd:/usr/sbin/nologin
+x:110:115::/var/lib/landscape:/usr/sbin/nologin
+x:111:1::/var/cache/pollinate:/bin/false
+redump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+00:1000:Ubuntu:/home/admin:/bin/bash
+100::/var/snap/lxd/common/lxd:/bin/false
+x:1001:1001:formation,,,:/home/formation:/bin/bash
+2:116:RealtimeKit,,,:/proc:/usr/sbin/nologin
+:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+:114:121::/nonexistent:/bin/false
+115:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+ipd:x:116:122:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+17:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+8:123:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+lper:x:119:124:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+0:125:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+patcher:x:121:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+:x:122:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+123:128::/var/lib/geoclue:/usr/sbin/nologin
+4:130::/var/lib/saned:/usr/sbin/nologin
+5:7:HPLIP system user,,,:/run/hplip:/bin/false
+26:131:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+ial-setup:x:127:65534::/run/gnome-initial-setup/:/bin/false
+132:Gnome Display Manager:/var/lib/gdm3:/bin/false

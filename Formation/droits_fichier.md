@@ -1,7 +1,7 @@
 # création du repertoire
 
 mkdir repertoire_test_droit
-ls -l 
+ls -la 
 repertoire_test_droit (rwxr-xr-x)
 
 #  donner les droits au fichier pour qu'il obtienne les droits suivants RWX R-X --X

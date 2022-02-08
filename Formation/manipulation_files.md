@@ -46,8 +46,11 @@ sort -r uniq.sorted.shells
 cp /usr/share/dict/words mywords
 
 grep fish mywords
+
 grep -i fish mywords
+
 grep -2  fish
+
 grep -C 2 fish
 grep -A 2 -B 2 fish
 

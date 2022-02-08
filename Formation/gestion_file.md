@@ -36,13 +36,22 @@ mkdir Python/Cours Python/TD Python/TP
 mkdir ProgrammationC/Cours ProgrammationC/TD ProgrammationC/TP
 
 # Se déplacer dans les sous repertoires et déplacement de fichiers (2)
+cd Python
+mv tp_Python_[135] TP/
+mv td_Python_[135] TP/
+mv cours_Python_[123] Cours/
+rm Cours/*
+
+
+
+
 cd ProgrammationC
 mv tp_ProgrammationC_[135] TP/
 mv td_ProgrammationC_[135] TD/
-mv cours_[1-3] Cours/
+mv cours_ProgrammationC_[123] Cours/
 
-rm T?[24]
-rm cours_[45]
+rm t?_ProgrammationC_[24]
+rm cours_ProgrammationC_[45] 
 
 #  tree
 sudo apt install tree

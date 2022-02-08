@@ -31,7 +31,7 @@ chmod u=rwx, g,0=rx,    (notation symbolique)
 
 #  donner les droits au fichier pour qu'il obtienne les droits suivants --X R-X ---
 chmod 150 repertoire_test_droit (mode octal)
-chmod u=x, g=rx, o=-   (notation symbolique)
+chmod u=x, g=rx, o-rwx   (notation symbolique)
 
 ######
 mkdir -p repertoire_test_droit/droit (644 par défaut) 

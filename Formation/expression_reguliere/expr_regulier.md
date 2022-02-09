@@ -6,10 +6,8 @@
 
 ## Extraire de ce fichier les colonnes 1,3,4 6 et 7 et mettre le résultat dans un fichier file.txt.
 ```
-    cut -c 1  > file2.txt 
-    cut -c 6-7 MonPass.txt  > file67.txt 
-    cut -c 3-4 MonPass.txt  > file34.txt 
-    paste file2.txt file34.txt file67.txt > file.txt 
+   cut -d : -f 1,3,4,6,7 MonPass.txt > file.txt
+  
 ```
 
 ## Ecrire les commandes avec grep permettant de retrouver des ligne répondant aux expressions suivantes : 

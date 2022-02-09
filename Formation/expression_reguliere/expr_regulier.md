@@ -14,7 +14,7 @@
 ### a)	chaîne commençant par «a» ou «A».
 
 ```
-    grep ^a MonPass.txt
+    grep ^[aA] MonPass.txt
 ```
 
 ### b)	chaîne finissant par nologin. 

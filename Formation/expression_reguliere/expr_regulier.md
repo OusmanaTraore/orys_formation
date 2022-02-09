@@ -94,7 +94,9 @@ grep ^[.] MonPass.txt
 ## Exercice2
 ### Sur le fichier 
 ### •	Afficher les lignes commençant par des noms de login ne contenant pas de chiffre.
-
+```
+    egrep -o '^[^:]+' MonPass.txt 
+```
 ### •	Afficher les lignes commençant par des noms de login ne se terminant  pas par un chiffre.
 
 ### •	Afficher les lignes dont le nom de login commence par la chaine « user ».

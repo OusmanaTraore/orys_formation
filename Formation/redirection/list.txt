@@ -1,0 +1,19 @@
+copie_fichier1
+copie_fichier2
+fichier.err
+fichier1
+fichier2
+fichier3
+sortie_pipe.md
+words
+total 976
+-rw-rw-r-- 1 formation formation     58 Feb  9 15:17 copie_fichier1
+-rw-rw-r-- 1 formation formation     58 Feb  9 15:19 copie_fichier2
+-rw-rw-r-- 1 formation formation     78 Feb  9 15:16 fichier.err
+-rw-rw-r-- 1 formation formation     58 Feb  9 14:59 fichier1
+-rw-rw-r-- 1 formation formation    103 Feb  9 15:57 fichier2
+-rw-rw-r-- 1 formation formation      0 Feb  9 15:59 fichier3
+-rw-rw-r-- 1 formation formation     90 Feb 10 11:05 list.txt
+-rw-rw-r-- 1 formation formation      0 Feb 10 11:05 list2.txt
+-rw-rw-r-- 1 formation formation      0 Feb  9 14:45 sortie_pipe.md
+-rw-r--r-- 1 formation formation 972398 Feb  9 16:14 words

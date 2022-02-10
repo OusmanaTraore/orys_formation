@@ -18,7 +18,7 @@ $statut
 #################################################
 echo $diese
 echo "COMMIT  DES FICHIERS"
-commit_texte="Entrez les fichiers à commiter"
+commit_texte="Entrez les fichiers \à commiter"
 read -p $commit_texte
 git commit -m $commit_texte
 #$commit_file
@@ -27,3 +27,4 @@ echo $diese
 #################################################
 echo "PUSH SUR LE REPOS"
 git push
+$statut
